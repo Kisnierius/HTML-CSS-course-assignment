@@ -1,0 +1,376 @@
+header {
+    
+    
+    background-image: linear-gradient(to bottom right, rgb(94, 91, 91), rgb(248, 97, 185) );
+    box-shadow: 0 1px 5px rgb(65, 64, 64);
+}
+
+div.headerflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+div.search{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 200px;
+    width: 30%;
+    padding-right: 25px;
+ 
+}
+
+form.search input {
+padding-left: 25px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgb(65, 64, 64);
+    background: #f1f1f1;
+    width: 100%;
+
+    
+  }
+  
+  form.search button {
+width: 20px;
+margin-right: -20px;
+position: absolute;
+    background: none;
+    color: rgba(74, 133, 156, 0.747);
+    font-size: 17px;
+    border: transparent;
+    cursor: pointer;
+    padding-top: 2px;
+  }
+  
+  form.search button:hover {
+    color: #0b7dda;
+    font-size: 20px;
+  }
+  
+  div.heroimage {
+   
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("saltibarsciai.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .herotext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  div.ingredientai {
+      display: flex;
+      justify-content: space-around;
+      
+  }
+  
+  div.ingredientai > div {
+    padding:7px 2px;
+    max-width: 120px;
+
+    
+}
+div.ingredientai > div > img{
+
+    border-radius: 90px;
+    width: 100%;
+    min-height: 120px;
+    border: 1px solid rgb(87, 86, 87);
+    box-shadow: 0 1px 5px rgb(216, 109, 207);
+}
+
+.yellow {
+    color: rgb(223, 81, 140);
+    text-align: center;
+}
+
+p.istorija {
+    padding: 0 5px;
+    text-align: justify;
+}
+
+div.darzoves {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  padding-bottom: 20px ;
+    
+}
+
+
+div.darzoves > div {
+
+    max-width: 300px;
+    margin: 0 auto;    
+}
+
+div.darzoves img{
+
+    border-radius: 80px;
+    width: 160px;
+    height: 160px;
+    border: 1px solid rgb(87, 86, 87);
+    box-shadow: 0 1px 5px rgb(216, 109, 207);
+    
+}
+
+p.yellow {
+    margin: 3px 0;
+}
+
+div.darzoves a.link {
+    text-decoration: none;
+    color: black;
+
+}
+
+div.darzoves a.link:hover {
+    padding: 10px 0;
+    text-decoration: none;
+    color: rgb(223, 81, 140);
+
+}
+
+div.bigpic {
+    padding-top: 10px;
+}
+
+div.linkalign {
+    display: flex;
+    align-items: center;
+}
+
+div.linkalign > i {
+    padding-right: 2px;
+}
+
+div.maxwrapdarzovescontacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+footer {
+    background-color: rgb(94, 91, 91);
+    margin-bottom: -18px;
+    padding-bottom: 10px;
+   
+}
+
+footer>div.yellowspace {
+    height: 10px;
+    background-color: rgb(223, 81, 140);
+}
+footer ul li  {
+    
+display: flex;
+         flex-direction: column;
+         align-content: stretch;
+         list-style: none;
+text-decoration: none;
+padding-top: 3px;
+
+    
+
+}
+footer ul li:hover
+{
+    box-shadow: 0 1px 5px rgb(65, 64, 64);
+}
+
+
+footer h4.yellow {
+    margin: 10px 0;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+    
+    
+}
+footer a {
+    text-decoration: none;
+    color: rgb(212, 211, 211);
+    width: 100%;
+    text-align: center;
+}
+
+footer .yellow {
+    padding: 5px 0;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        font-size: 1.5rem;
+    }
+
+    form.search input {
+        
+            font-size: 20px;
+            padding-left: 35px;
+    }
+
+    form.search button {
+        width: 20px;
+        padding-top: 2.5px;
+            font-size: 20px;
+        text-align: center;
+        }
+
+        form.search button:hover {
+font-size: 22px;
+        }
+
+            div.headerflex {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+    
+    
+    div.heroimage {
+        height: 400px;
+       font-size: large;
+    }
+    
+    div.maxwrapper {
+        padding: 0 150px;
+    }
+    
+    div.ingredientai {
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    
+    div.ingredientai > div {
+        margin-top: -70px;
+      padding:7px 0px;
+      width: 120px;
+      width: 120px;
+      
+    }
+    div.ingredientai > div > img{
+    position: absolute;
+      border-radius: 60px;
+      width: 120px;
+      min-height: 120px;
+    }
+    
+    h3.yellow {
+        margin-top: 100px;
+        
+    }
+
+    div.maxfooter {
+        display: flex;
+        justify-content: space-evenly;
+        
+        }
+        
+        div.footercolumns {
+            display: flex;
+            flex-direction: column;
+        }
+
+}
+
+@media only screen and (min-width: 1020px) {
+
+
+div.heroimage {
+    height: 700px;
+   font-size: xx-large;
+}
+
+div.maxwrapper {
+    padding: 0 145px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+div.maxfooter, div.headerflex {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+div.ingredientai {
+    margin-left: -60px;
+    
+}
+
+div.ingredientai > div {
+    margin-top: -100px;
+  padding:7px 0px;
+  
+}
+div.ingredientai > div > img{
+position: absolute;
+  border-radius: 90px;
+  width: 180px;
+  min-height: 180px;
+}
+
+h3.yellow {
+    margin-top: 100px;
+    
+}
+
+div.darzoves {
+   display: flex;
+   flex-direction: row;
+   padding: 50px 0;
+   justify-content: space-around ;
+
+    
+}
+
+div.maxwrapdarzoves {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.maxwrapdarzovescontacts{
+    align-items: flex-start;
+    
+}
+
+div.maxwrapdarzovescontacts a.link {
+    font-size: 1rem;
+    font-weight: bold;}
+
+div.bigpic{
+
+    padding-right: 8px;   
+}
+
+div.darzoves img{
+
+    border-radius: 70px;
+    width: 140px;
+    height: 140px;
+}
+}
